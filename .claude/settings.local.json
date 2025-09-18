@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(pnpm add:*)"
+      "Bash(pnpm add:*)",
+      "Bash(pnpm check:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []

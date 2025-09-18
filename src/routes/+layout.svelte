@@ -13,6 +13,17 @@
 		
 		<div class="p-4">
 			<a 
+				href="/game" 
+				class="flex items-center gap-3 px-4 py-3 mb-2 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-gray-900 transition-colors {$page.url.pathname === '/game' ? 'bg-gray-100 text-gray-900 font-medium' : ''}"
+			>
+				<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+					<path d="M8 12h8M12 8v8"></path>
+					<rect x="4" y="4" width="16" height="16" rx="2"></rect>
+				</svg>
+				<span>게임판</span>
+			</a>
+			
+			<a 
 				href="/games" 
 				class="flex items-center gap-3 px-4 py-3 mb-2 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-gray-900 transition-colors {$page.url.pathname === '/games' ? 'bg-gray-100 text-gray-900 font-medium' : ''}"
 			>
@@ -22,7 +33,7 @@
 					<rect x="14" y="14" width="7" height="7"></rect>
 					<rect x="3" y="14" width="7" height="7"></rect>
 				</svg>
-				<span>게임</span>
+				<span>게임 목록</span>
 			</a>
 			
 			<a 

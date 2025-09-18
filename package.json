@@ -27,5 +27,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"pixi.js": "^8.13.2"
 	}
 }

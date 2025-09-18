@@ -52,6 +52,7 @@
 				<button
 					id="sound"
 					on:click={() => soundEnabled = !soundEnabled}
+					aria-label="Toggle sound effects"
 					class="relative inline-flex h-6 w-11 items-center rounded-full transition-colors {soundEnabled ? 'bg-gray-900' : 'bg-gray-200'}"
 				>
 					<span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {soundEnabled ? 'translate-x-6' : 'translate-x-1'}"></span>
@@ -68,6 +69,7 @@
 				<button
 					id="vibration"
 					on:click={() => vibrationEnabled = !vibrationEnabled}
+					aria-label="Toggle vibration"
 					class="relative inline-flex h-6 w-11 items-center rounded-full transition-colors {vibrationEnabled ? 'bg-gray-900' : 'bg-gray-200'}"
 				>
 					<span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {vibrationEnabled ? 'translate-x-6' : 'translate-x-1'}"></span>
@@ -84,6 +86,7 @@
 				<button
 					id="autoSort"
 					on:click={() => autoSort = !autoSort}
+					aria-label="Toggle auto sort"
 					class="relative inline-flex h-6 w-11 items-center rounded-full transition-colors {autoSort ? 'bg-gray-900' : 'bg-gray-200'}"
 				>
 					<span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {autoSort ? 'translate-x-6' : 'translate-x-1'}"></span>
@@ -100,6 +103,7 @@
 				<button
 					id="hints"
 					on:click={() => showHints = !showHints}
+					aria-label="Toggle hints"
 					class="relative inline-flex h-6 w-11 items-center rounded-full transition-colors {showHints ? 'bg-gray-900' : 'bg-gray-200'}"
 				>
 					<span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {showHints ? 'translate-x-6' : 'translate-x-1'}"></span>
