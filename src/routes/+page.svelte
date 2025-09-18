@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+	
+	onMount(() => {
+		goto('/games');
+	});
+</script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+	<p>게임 목록으로 이동중...</p>
+</div>
